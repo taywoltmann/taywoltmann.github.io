@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> CSCE 102 Project Part 4</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="main-div">
+<header>
+<h1>Taylor Woltmann</h1>
+</header>
+<nav id="main-nav">
+	<ul>
+		<li> <a href="index.html"> Home</a></li>
+		<li><a href="quiz.html"> Quiz</a></li>
+		<li><a href="contact.html"> Contact Me</a></li>
+	</ul>
+</nav>
+<main>
+<h2>Website Development Quiz</h2>
+<p>
+<label for="question"> What does CSS stand for?</label>
+<select id="question1">
+	<option>Cascading Style Sheets</option>
+	<option>Centered Sheeted Styles</option>
+	<option>Colored Styled Sheets</option>
+	<option>Colorful Style Sheets</option>
+</select>
+</p>
+<label for="question"> What phrase element creates a bold text?</label>
+<select id="question2">
+	<option>&lt;bold&gt;</option>
+	<option>&lt;b&gt;</option>
+	<option>&lt;em&gt;</option>
+	<option>&lt;mark&gt;</option>
+</select>
+</p>
+<label for="question"> An ordered list contains...</label>
+<select id="question3">
+	<option>bullets</option>
+	<option>a table</option>
+	<option>numbers</option>
+	<option>none of the above</option>
+</select>
+</p>
+<label for="question"> When inserting an image "alt" refers to...</label>
+<select id="question4">
+	<option>another image</option>
+	<option>the image file</option>
+	<option>the image name</option>
+	<option>a written description of the image</option>
+</select>
+</p>
+<button onclick="submit1()">Submit</button>
+<div id="result" class="hidden">
+<p id="answer1"></p>
+<p id="answer2"></p>
+<p id="answer3"></p>
+<p id="answer4"></p>
+<p id="count"></p>
+</div>
+</main>
+<footer>
+<p>&copy;taylorwoltmann</p>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
